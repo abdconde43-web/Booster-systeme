@@ -17,6 +17,6 @@ jobs:
           python-version: '3.9'
       - name: Install dependencies
         run: |
-          pip install -r requirements.txt
+          pip install selenium
       - name: Run Bot
         run: python bot_v1.py
